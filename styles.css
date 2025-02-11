@@ -1,0 +1,70 @@
+/* Estilo global */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #00bfff, #1e90ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Contêiner do jogo */
+  .game-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Canvas do jogo */
+  #gameCanvas {
+    border: 5px solid #fff;
+    background-color: #87cefa;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Tela de Game Over */
+  .game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+    display: none;
+  }
+  
+  .game-over h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .game-over p {
+    font-size: 24px;
+  }
+  
+  .game-over button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #32cd32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .game-over button:hover {
+    background-color: #228b22;
+  }
+  
+  /* Texto de Pontuação */
+  #score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  
