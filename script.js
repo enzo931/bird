@@ -111,7 +111,6 @@ birdImage.src = "src/img.png"; // Substitua pelo caminho da imagem desejada
 
 function drawBird() {
   // Primeiro, desenha o ponto amarelo (quadrado)
-  ctx.fillStyle = "#ffcc00"; 
   ctx.fillRect(50, birdY, BIRD_WIDTH, BIRD_HEIGHT);
 
   // Depois, desenha a imagem sobre o ponto amarelo
