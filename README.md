@@ -13,7 +13,7 @@ Este é um projeto simples que recria o famoso jogo **Flappy Bird** usando **HTM
 
 ---
 
-<h1## 🕹️ **Como Jogar**</h1>
+<h1>## 🕹️ **Como Jogar**</h1>
 
 1. Abra o arquivo `index.html` em seu navegador.
 2. Clique no espaço para fazer o pássaro subir.
@@ -22,7 +22,7 @@ Este é um projeto simples que recria o famoso jogo **Flappy Bird** usando **HTM
 
 ---
 
-<h1## 💻 **Tecnologias Usadas**</h1>
+<h1>## 💻 **Tecnologias Usadas**</h1>
 
 - **HTML**: Para a estruturação da página e do jogo.
 - **CSS**: Para estilizar e criar o design visual do jogo.
