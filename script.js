@@ -107,7 +107,7 @@ function detectCollisions() {
 
 // Carregar a imagem do pássaro
 const birdImage = new Image();
-birdImage.src = "src/img.png"; // Substitua pelo caminho da imagem desejada
+birdImage.src = "src/ok.png"; // Substitua pelo caminho da imagem desejada
 
 function drawBird() {
   // Primeiro, desenha o ponto amarelo (quadrado)
